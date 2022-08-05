@@ -7,7 +7,7 @@ class LikeButton extends React.Component {
     super(props);
     this.state = { liked: false };
   }
-
+// Відобразити <button> з текстом "Мені подобається"
   render() {
     if (this.state.liked) {
       return 'You liked this.';
